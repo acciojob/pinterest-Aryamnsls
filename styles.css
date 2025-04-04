@@ -1,1 +1,51 @@
-/*  your css code here. If applicable */
+/* Hero Section Container */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.hero-image {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Text Container */
+.hero-text {
+    width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Heading Styling */
+.hero-text h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.hero-text p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.explore-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
